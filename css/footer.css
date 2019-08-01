@@ -1,0 +1,70 @@
+#wrap_footer {
+    width: 96%;
+    margin: 175px auto 0;
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#wrap_footer > div {display:  inline-block;}
+.footer_txt {float: left; width: 20%;}
+.footer_txt .footer_logo a{font-size: 25px; margin-bottom: 8px;}
+.footer_txt p {font-size: 12px; line-height: 1;}
+.footer_info {float: left; width: 400px;}
+.footer_info span {display: block; font-size: 12px; line-height: 2; letter-spacing: 1.2px;}
+.footer_info span:first-child {text-decoration: underline;}
+
+.family_site	{
+    position: relative;
+    float: right;
+    width: 12%;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+    border: 1px solid #bbb;
+    color: #343434;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.family_site > .site_list {
+    display: none;
+    text-align: left;
+    border-bottom: 0;
+    background: #fff;
+    border: 1px solid #bbb;
+    padding-left: 20px;
+    position: absolute;
+    width: 101%;
+    height: auto;
+    top: -150px;
+    left: -1px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.family_site > .fa {
+    float: right;
+    padding-right: 10px;
+    line-height: 35px;
+}
+.family_site > .site_list a {
+    color: #666;
+    letter-spacing: 2px;
+    line-height: 2.5;
+}
+@media (max-width: 991px){
+.footer_txt					{width: 40%;}
+.footer_info				{width: 40%;}
+}
+
+@media (max-width: 768px){
+.footer_t					{width: 100%;margin: 100px auto 0;  padding-top: 30px; padding-bottom: 10px;}
+.footer_t .sns				{float: none; margin-bottom: 35px; margin-left: 5%;}
+.m_block					{display: block;}
+.footer_txt					{float: none; width: 88%; margin: 0 auto; display: none;}
+.footer_info				{float: none; width: 88%; margin: 0 auto;}
+.footer_info p span			{display: block;padding: 0;}
+.footer_info p+p			{line-height: 1; }
+.footer_info p+p+p			{line-height: 1.4; margin-top: -4px;}
+.footer_txt.m_block			{display: block;float: none; width: 88%;  margin: 35px auto 20px; }
+.footer_txt p: first-child	{font-size: 1.2rem; margin-bottom: 6px;}
+.footer_txt p				{font-size: 0.8rem}
+}

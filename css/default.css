@@ -1,0 +1,255 @@
+@charset "utf-8";
+/*텍스트 사용시 주석 풀기*/
+@font-face {
+     font-family: 'NanumSquare';
+     src: url('/font/hinted-NanumSquareL.eot');
+     src: local('NanumSquare Light'), local('NanumSquareL'),
+         url('/font/hinted-NanumSquareL.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-NanumSquareL.woff2') format('woff2'),
+         url('/font/hinted-NanumSquareL.woff') format('woff'),
+         url('/font/hinted-NanumSquareL.svg#NanumSquareL') format('svg');
+     font-weight: 300;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'NanumSquare';
+     src: url('/font/hinted-NanumSquareR.eot');
+     src: local('NanumSquare Regular'), local('NanumSquareR'),
+         url('/font/hinted-NanumSquareR.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-NanumSquareR.woff2') format('woff2'),
+         url('/font/hinted-NanumSquareR.woff') format('woff'),
+         url('/font/hinted-NanumSquareR.svg#NanumSquareR') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'NanumSquare';
+     src: url('/font/hinted-NanumSquareEB.eot');
+     src: local('NanumSquare ExtraBold'), local('NanumSquareEB'),
+         url('/font/hinted-NanumSquareEB.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-NanumSquareEB.woff2') format('woff2'),
+         url('/font/hinted-NanumSquareEB.woff') format('woff'),
+         url('/font/hinted-NanumSquareEB.svg#NanumSquareEB') format('svg');
+     font-weight: 800;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'NanumSquare';
+     src: url('/font/hinted-NanumSquareB.eot');
+     src: local('NanumSquare Bold'), local('NanumSquareB'),
+         url('/font/hinted-NanumSquareB.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-NanumSquareB.woff2') format('woff2'),
+         url('/font/hinted-NanumSquareB.woff') format('woff'),
+         url('/font/hinted-NanumSquareB.svg#NanumSquareB') format('svg');
+     font-weight: bold;
+     font-style: normal;
+ }
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-LightItalic.eot');
+     src: local('KoHo Light Italic'), local('KoHo-LightItalic'),
+         url('/font/hinted-KoHo-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-LightItalic.woff2') format('woff2'),
+         url('/font/hinted-KoHo-LightItalic.woff') format('woff'),
+         url('/font/hinted-KoHo-LightItalic.svg#KoHo-LightItalic') format('svg');
+     font-weight: 300;
+     font-style: italic;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-MediumItalic.eot');
+     src: local('KoHo Medium Italic'), local('KoHo-MediumItalic'),
+         url('/font/hinted-KoHo-MediumItalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-MediumItalic.woff2') format('woff2'),
+         url('/font/hinted-KoHo-MediumItalic.woff') format('woff'),
+         url('/font/hinted-KoHo-MediumItalic.svg#KoHo-MediumItalic') format('svg');
+     font-weight: 500;
+     font-style: italic;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-Italic.eot');
+     src: local('KoHo Italic'), local('KoHo-Italic'),
+         url('/font/hinted-KoHo-Italic.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-Italic.woff2') format('woff2'),
+         url('/font/hinted-KoHo-Italic.woff') format('woff'),
+         url('/font/hinted-KoHo-Italic.svg#KoHo-Italic') format('svg');
+     font-weight: normal;
+     font-style: italic;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-ExtraLight.eot');
+     src: local('KoHo ExtraLight'), local('KoHo-ExtraLight'),
+         url('/font/hinted-KoHo-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-ExtraLight.woff2') format('woff2'),
+         url('/font/hinted-KoHo-ExtraLight.woff') format('woff'),
+         url('/font/hinted-KoHo-ExtraLight.svg#KoHo-ExtraLight') format('svg');
+     font-weight: 200;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-Bold.eot');
+     src: local('KoHo Bold'), local('KoHo-Bold'),
+         url('/font/hinted-KoHo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-Bold.woff2') format('woff2'),
+         url('/font/hinted-KoHo-Bold.woff') format('woff'),
+         url('/font/hinted-KoHo-Bold.svg#KoHo-Bold') format('svg');
+     font-weight: bold;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-BoldItalic.eot');
+     src: local('KoHo Bold Italic'), local('KoHo-BoldItalic'),
+         url('/font/hinted-KoHo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-BoldItalic.woff2') format('woff2'),
+         url('/font/hinted-KoHo-BoldItalic.woff') format('woff'),
+         url('/font/hinted-KoHo-BoldItalic.svg#KoHo-BoldItalic') format('svg');
+     font-weight: bold;
+     font-style: italic;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-Regular.eot');
+     src: local('KoHo Regular'), local('KoHo-Regular'),
+         url('/font/hinted-KoHo-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-Regular.woff2') format('woff2'),
+         url('/font/hinted-KoHo-Regular.woff') format('woff'),
+         url('/font/hinted-KoHo-Regular.svg#KoHo-Regular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-Light.eot');
+     src: local('KoHo Light'), local('KoHo-Light'),
+         url('/font/hinted-KoHo-Light.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-Light.woff2') format('woff2'),
+         url('/font/hinted-KoHo-Light.woff') format('woff'),
+         url('/font/hinted-KoHo-Light.svg#KoHo-Light') format('svg');
+     font-weight: 300;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-ExtraLightItalic.eot');
+     src: local('KoHo ExtraLight Italic'), local('KoHo-ExtraLightItalic'),
+         url('/font/hinted-KoHo-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-ExtraLightItalic.woff2') format('woff2'),
+         url('/font/hinted-KoHo-ExtraLightItalic.woff') format('woff'),
+         url('/font/hinted-KoHo-ExtraLightItalic.svg#KoHo-ExtraLightItalic') format('svg');
+     font-weight: 200;
+     font-style: italic;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-Medium.eot');
+     src: local('KoHo Medium'), local('KoHo-Medium'),
+         url('/font/hinted-KoHo-Medium.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-Medium.woff2') format('woff2'),
+         url('/font/hinted-KoHo-Medium.woff') format('woff'),
+         url('/font/hinted-KoHo-Medium.svg#KoHo-Medium') format('svg');
+     font-weight: 500;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-SemiBold.eot');
+     src: local('KoHo SemiBold'), local('KoHo-SemiBold'),
+         url('/font/hinted-KoHo-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-SemiBold.woff2') format('woff2'),
+         url('/font/hinted-KoHo-SemiBold.woff') format('woff'),
+         url('/font/hinted-KoHo-SemiBold.svg#KoHo-SemiBold') format('svg');
+     font-weight: 600;
+     font-style: normal;
+ }
+ 
+ @font-face {
+     font-family: 'KoHo';
+     src: url('/font/hinted-KoHo-SemiBoldItalic.eot');
+     src: local('KoHo SemiBold Italic'), local('KoHo-SemiBoldItalic'),
+         url('/font/hinted-KoHo-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-KoHo-SemiBoldItalic.woff2') format('woff2'),
+         url('/font/hinted-KoHo-SemiBoldItalic.woff') format('woff'),
+         url('/font/hinted-KoHo-SemiBoldItalic.svg#KoHo-SemiBoldItalic') format('svg');
+     font-weight: 600;
+     font-style: italic;
+ }
+ @font-face {
+     font-family: 'Capriola';
+     src: url('/font/hinted-Capriola-Regular.eot');
+     src: local('Capriola Regular'), local('Capriola-Regular'),
+         url('/font/hinted-Capriola-Regular.eot?#iefix') format('embedded-opentype'),
+         url('/font/hinted-Capriola-Regular.woff2') format('woff2'),
+         url('/font/hinted-Capriola-Regular.woff') format('woff'),
+         url('/font/hinted-Capriola-Regular.svg#Capriola-Regular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ 
+ 
+ 
+ 
+/* 초기화 */
+*{margin: 0; padding: 0;border: 0 }
+html {-webkit-text-size-adjust:  100%; -ms-text-size-adjust:  100%;}
+html,body {height: 100% !important;}
+html, h1, h2, h3, h4, h5, h6, form, fieldset, img {font-family: 'NanumSquare' !important; font-weight: bold; margin: 0; padding: 0; border: 0; letter-spacing: 0.5px;}
+html, body, td, p, button, textarea, select,div,ul,li,a { 
+	font-family: 'NanumSquare' !important;
+     font-size: 15px; 
+     font-weight: normal;
+	color: #232323;
+     line-height: 1.5;
+     letter-spacing: 0.5px;
+}
+::-moz-selection {
+   background:  #000;
+   color:  #fff;
+}
+::selection {
+   background:  #000;
+   color:  #fff;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block}
+#hd ul, nav ul, #ft ul {margin: 0;padding: 0;list-style: none}
+legend {position: absolute;margin: 0;padding: 0;font-size: 0;line-height: 0;text-indent: -9999em;overflow: hidden}
+label, input, button, select, img {vertical-align: middle}
+input, button {margin: 0;padding: 0; outline: none !important;}
+button {cursor: pointer}
+ol,ul {list-style:  none;}
+img	{width: 100%; border: 0px;}
+a:link, a:visited, a:active {text-decoration: none; color: #232323;} 
+a:hover {text-decoration: none;  color: #232323;}
+textarea, select {font-size: 1em;border: 1px solid #ccc; outline: none !important;}
+select {margin: 0}
+p {margin: 0;padding: 0;word-break: break-all;}
+hr {display: none}
+pre {overflow-x: scroll;font-size: 1.1em}
+fieldset {margin: 0; padding: 0; border: 0 !important;}
+.clear {clear: both;}
+.clear:after {clear: both; content: ""; display:  block;}
+.eng {font-family: 'Capriola' !important; font-weight: normal; letter-spacing: -1px;}
+
+#total_wrap	{width: 100%; height:  100%;}
+#wrap {width: 100%; height:  100%; margin: 0 auto;}
+.wid {position: relative; width: 100%; max-width: 1200px; margin: 0 auto;}
+.lt {float: left;}
+.rt {float: right;}
+

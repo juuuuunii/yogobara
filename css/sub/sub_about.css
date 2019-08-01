@@ -1,0 +1,102 @@
+.sub_visual {width: 100%; height: 400px; background: url('/img/about/ab_vis.jpg') top center; background-position: fixed; overflow: hidden;}
+.sub_content {position: relative; width: 100%; margin: 0 auto;}
+
+/************************
+        sub_title
+************************/
+.sub_title {font-size: 80px; line-height: 1; margin-top: -45px; z-index: 2;}
+.sub_txt {width: 55%; float: right; margin: 50px 0 130px;}
+.sub_txt h3 {font-size: 24px; font-weight: bold; margin-bottom: 15px;}
+.sub_txt p {font-size: 17px; line-height: 1.8; color: #232323;letter-spacing: 0px;}
+.clear_line {position: relative; max-width: 960px; height: 600px; margin: 0 auto; overflow: hidden; z-index: 3;}
+
+
+/************************
+        vision
+************************/
+.vision_bg {position: relative; width: 100%; padding: 240px 0 140px;}
+.vision_bg > div {float: left; text-align: left;}
+.vision_bg .lt {width: 45%; font-size: 40px; font-weight: bold; color: #232323; line-height: 1.5; margin-top: 20px;}
+.vision_bg .rt {width: 55%;}
+.vision_bg h3 {font-size: 24px; font-weight: 500; color: #232323; margin-bottom: 14px;}
+.vision_bg p {font-size: 17px; line-height: 1.8; color: #666;}
+.vision_bg h3:nth-child(3) {margin-top: 50px;}
+
+/************************
+        solution
+************************/
+.solution_bg {position: relative; width: 100%; background: #f8f8f8; padding: 140px;}
+.solution_bg > div > div {float: left;}
+.solution_bg .lt {width: 45%;}
+.solution_bg .lt h3 {font-size: 40px; font-weight: bold; color: #232323; line-height: 1.5;}
+.solution_bg .lt p {font-size: 17px; color: #666; line-height: 30px; margin-top: 30px;}
+.solution_bg .rt {width: 55%;}
+.solution_bg .rt img {max-width: 80%; float: right;}
+
+/************************
+         map
+************************/
+.map_info {position: relative; width: 100%;}
+.map_info .lt {width: 40%;}
+.map_info .lt h2 {font-size: 36px; font-weight: bold; line-height: 2; color: #232323;}
+.map_info .lt .addr {font-size: 23px;}
+.map_info .lt .tel {font-size: 18px; line-height: 2.5;}
+#daumRoughmapContainer1557293540130 {width: 100%; height: 500px; margin-bottom: 55px; z-index: 3;}
+
+/** inquire **/
+.inquire {width: 55%;}
+.inquire .form_wrap {position: relative; width: 100%;}
+.numTit {width: 100%; font-size: 22px; font-weight: 900; line-height: 40px; color: #555; margin: 30px 0 15px;}
+.inquire input[type="checkbox"] {display: none;}
+.inquire input[type="checkbox"] + label {
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 20px;
+    background:url(/img/input_radio.png) no-repeat center/20px 20px;
+    font-size: 14px; 
+    color: #b3b3b3; 
+    cursor: pointer; 
+}
+
+.inquire input[type="checkbox"]:checked + label {background:url(/img/input_radio_on.png) no-repeat center/20px 20px;}
+.inquire input[type="checkbox"] + label > p  {position: relative; font-size: 18px; color: #666;}
+.inquire input[type="checkbox"]:checked + label > p {color: #232323;}
+
+
+.radio_list > fieldset {display: inline-block; margin-right: 100px;}
+.radio_list input[type="checkbox"] + label > p  {width: 80px; left: 32px; top: -3px;}
+
+.input_wrap input {position: relative; width: 100%; font-size: 18px; color: #232323; padding: 12px 0 12px 20px; margin-bottom: 8px; border: 1px solid #e1e1e1; box-sizing: border-box;}
+textarea {
+    resize: none;
+    width: 100%;
+    height: 360px;
+    font-size: 16px;
+    line-height: 1.5px;
+    padding: 12px 0 0 20px;
+    border: 1px solid #e1e1e1;
+    letter-spacing: 1px;
+    -webkit-appearance: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.agree_wrap {position: relative; background: #f6f6f6; border: 1px solid #e7e7e7; padding: 30px 20px; margin-top: 30px;}
+.agree_wrap > fieldset {position: relative; width: 100%;}
+.agree_wrap input[type="checkbox"] + label > p  {position: absolute; top: 5px; left: 50px; font-size: 18px; color: #666;}
+.agree_wrap .allView {position: absolute; font-size: 18px; font-weight: bold; color: #ee3d22; padding-bottom: 4px; border-bottom: 1px solid #ee3d22;  top: 34px; right: 30px;}
+.inquiry_btn {
+    display: block; 
+    width: 240px; 
+    height: 70px; 
+    background: #232323; 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 70px; 
+    color: #fff !important; 
+    text-align: center; 
+    border-radius: 50px; 
+    margin: 50px auto 0;
+}
