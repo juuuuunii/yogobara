@@ -38,7 +38,7 @@ $(document).ready(function(){
     $slick.slick({
       draggable: true,
       adaptiveHeight: false,
-      dots: false,
+      dots: false, 
       mobileFirst: true
     });
     
